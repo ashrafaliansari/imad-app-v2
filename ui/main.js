@@ -22,6 +22,6 @@ button.onlick= function()
     }
 
 //make a request
-request.open('GET','https://cloud.imad.hasura.io/counter', true);
+request.open('GET','http://ashrafaliansari.imad.hasura-app.io/counter', true);
 request.send(null);
 };
