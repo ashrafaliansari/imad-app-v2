@@ -9,7 +9,7 @@ button.onlick= function()
     //capture the respoonse and store it in avariable
     reuest.onreadystatechange=function()
     {
-        if(request.readystate===XMLRequest.DONE)
+        if(request.readystate === XMLRequest.DONE)
         {//take some action
             if(request.status===200)
             {
@@ -19,7 +19,7 @@ button.onlick= function()
             }
         
         }
-    }
+    };
 
 //make a request
 request.open('GET','http://ashrafaliansari.imad.hasura-app.io/counter', true);
