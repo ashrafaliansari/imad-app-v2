@@ -1,4 +1,4 @@
-console.log('Loaded!');
+//console.log('Loaded!');
 //counter code
 var button=document.getElementById('counter');
 button.onlick= function()
@@ -18,8 +18,9 @@ button.onlick= function()
             }
         
         }
-    };
-};
+    }
+
 //make a request
 request.open('GET','https://cloud.imad.hasura.io/counter', true);
 request.send(null);
+};
