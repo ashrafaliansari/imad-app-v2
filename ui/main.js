@@ -6,6 +6,6 @@ var counter=0;
 button.onlick= function()
 {   
     counter=counter+1;
-    var span=document.getElementById('count');
+    var span=document.getElementById('counting');
     span.innerHTML=counter.toString();
 };
